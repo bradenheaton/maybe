@@ -1,0 +1,59 @@
+body{
+    background: grey;
+    color: white;
+    font-family: 'Lucida Sans';
+    padding:75px;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    color: white;
+    font-family: Cambria, Cochin, Georgia;
+    font-style: italic;
+    padding: 25px;
+
+}
+.main-content{
+    margin-left:150px;
+    padding:20px;
+}
+.sidebar{
+    background-color:#424141;
+    width:200px;
+    height:100%;
+    left:0;
+    padding:15px;
+}
+.sidebar ul{
+    list-stye:none;
+    padding:50px;
+}
+.sidebar ul li{
+    margin:15px 0;
+}
+.sidebar ul li a{
+    color: white
+}
+.sidebar ul li a:hover{
+    text-decoration:underline;
+    color:black
+}
+.navbar {
+    padding: 10px
+    display:flex;
+    justify-content: space-around;
+    color:white
+}
+
+.box-model{
+    padding:15px;
+    background-color: lightblue;
+    border:5px solid yellow;
+    margin: 20px;
+}
+.boxed-paragraph {
+    color:black
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 0;
+  }
